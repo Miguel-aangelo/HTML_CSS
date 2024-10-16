@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+
+        h1{     /*box-level*/
+
+           /* display: inline;*/
+            background-color: darkgray;
+            height: 50px;
+            width: 400px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: aqua;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+             
+        }
+
+        a{   /*inline-level*/
+
+            /*display: block;*/
+            display: inline-block;
+            background-color: lightgray;
+            border-width: 10px;
+            border-style: solid;
+            border-color: aqua;
+            background-color: rgb(209, 10, 10);
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+    }
+    a:hover{
+        background-color: rgb(182, 49, 67);   
+    }
+ .d1{
+   
+    background-color: blue; /* Cor inicial */
+    width: 150px;
+    height:  150px;
+    transition: background-color 0.3s; /* Transição suave */
+    margin: auto;   /* margem central */
+    border-color: aqua;
+    border-style: solid;
+     border-width: 10px;
+ }
+ .d1:hover{
+   background-color: aqua;/* Cor ao passar o mouse */   
+ }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level.</h1>
+    <p>Parágrafos tambem são Exemplos de box-level, mas os <a href="#">links são Exemplos de caixas inline-level, 
+    </a>vamos ver como
+    tudo isso funciona.</p> 
+    <a href="caixa02.html" style="display: inline-block; background-color: blue; color: white; padding: 10px 15px;
+     text-decoration: none; border-radius: 5px;" target="_blank">click aqui</a>
+    <div class="d1"></div>
+</body>
+</html>
