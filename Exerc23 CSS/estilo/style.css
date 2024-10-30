@@ -50,6 +50,7 @@ header > h1{
     color: black;
     padding: 10px;/*Afastar da margem.*/
     border-radius: 5px;
+ 
   
     text-decoration: none;/*Retirar o sublinhado*/
     font-weight: bold; /*Negrito*/
@@ -64,7 +65,7 @@ header > h1{
 nav{/*Cor da barra dos Links*/
   background-color: #576f97;
   height: 20px;
-  min-width: 300px;
+  min-width: 25px;
    max-width:1040px;
   margin: auto;
 
